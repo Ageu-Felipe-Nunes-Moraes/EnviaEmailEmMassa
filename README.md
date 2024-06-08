@@ -1,40 +1,40 @@
-# Enviador de E-mails
+# Email Sender
 
-Este é um script Python para enviar e-mails utilizando a biblioteca `smtplib`. Ele é útil para enviar mensagens personalizadas com anexos para múltiplos destinatários de uma lista.
+This is a Python script for sending emails using the `smtplib` library. It is useful for sending personalized messages with attachments to multiple recipients from a list.
 
-## Funcionalidades
+## Features
 
-- **Envio de E-mails Personalizados:** O script permite enviar e-mails com mensagens personalizadas em HTML para destinatários específicos.
-- **Anexos:** É possível adicionar anexos aos e-mails, como documentos PDF.
-- **Imagem de Assinatura:** Adiciona uma imagem de assinatura ao e-mail.
-- **Leitura de Lista de E-mails:** O script lê uma lista de e-mails de um arquivo de texto para enviar e-mails para múltiplos destinatários.
+- **Personalized Email Sending:** The script allows sending emails with personalized HTML messages to specific recipients.
+- **Attachments:** It is possible to add attachments to the emails, such as PDF documents.
+- **Signature Image:** Adds a signature image to the email.
+- **Reading Email List:** The script reads a list of emails from a text file to send emails to multiple recipients.
 
-## Requisitos
+## Installation Requirements
 
 - Python 3.x
 
-## Bibliotecas Utilizadas
+## Required Libraries
 
-- `smtplib`: Para enviar e-mails através do protocolo SMTP.
-- `os`: Para interagir com o sistema operacional e gerenciar arquivos.
-- `email.mime`: Para construir as partes da mensagem de e-mail.
-- `email.encoders`: Para codificar os anexos em base64.
+- `smtplib`: For sending emails via the SMTP protocol.
+- `os`: To interact with the operating system and manage files.
+- `email.mime`: To construct the parts of the email message.
+- `email.encoders`: To encode the attachments in base64.
 
-## Como Usar
+## How to Use
 
-1. Certifique-se de ter Python instalado em seu sistema.
-2. Edite o script e insira as informações necessárias, como assunto, remetente, senha, corpo do e-mail e caminho do arquivo de lista de e-mails.
-3. Execute o script.
-4. Aguarde o envio dos e-mails para os destinatários.
+1. Ensure you have Python installed on your system.
+2. Edit the script and enter the necessary information, such as subject, sender, password, email body, and the path to the email list file.
+3. Run the script.
+4. Wait for the emails to be sent to the recipients.
 
-## Como Contribuir
+## How to Contribute
 
-Se você deseja contribuir para este script, sinta-se à vontade para fazer um fork do repositório, fazer suas modificações e enviar um pull request.
+If you wish to contribute to this script, feel free to fork the repository, make your modifications, and submit a pull request.
 
-## Autor
+## Author
 
-Este script foi desenvolvido por Ageu Felipe Nunes Moraes. Para dúvidas ou sugestões, entre em contato pelo e-mail [ageumoraes67@gmail.com](mailto:ageumoraes67@gmail.com).
+This script was developed by Ageu Felipe Nunes Moraes. For questions or suggestions, contact [ageumoraes67@gmail.com](mailto:ageumoraes67@gmail.com).
 
-## Aviso Legal
+## Disclaimer
 
-Este script é apenas para fins educacionais e não possui afiliação com serviços de e-mail ou outras empresas mencionadas.
+This script is for educational purposes only and has no affiliation with email services or other mentioned companies.
